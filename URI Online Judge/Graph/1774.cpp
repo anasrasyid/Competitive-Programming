@@ -40,7 +40,7 @@ int main(){
         size[y] += size[x];
         link[x] = y;
     };
-    int ans =0;
+    int ans = 0;
     for(int i =0; i < c; i++){
         piii P = e[i];
         if(!same(P.first.first,P.first.second)){
